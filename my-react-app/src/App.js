@@ -73,7 +73,9 @@ function App() {
       <form>
             <input type="text" id="a00" placeholder="a00" /><br/><br/>
             <input type="text" id="a01" placeholder="a01" /><br/><br/>
-            
+            <input type="text" id="a02" placeholder="a02" /><br/><br/>
+            <input type="text" id="a03" placeholder="a03" /><br/><br/>
+            <input type="text" id="a04" placeholder="a04" /><br/><br/>
             <button onClick={Add}>Add</button>
             <button onClick={Clear}>Clear</button>
             <label for="result"><b>Result:</b></label>
