@@ -69,4 +69,14 @@ function App() {
   );
 }
 
+let currentA00 = document.querySelector('#a00').value
+let currentA01 = document.querySelector('#a01').value
+let currentA02 = document.querySelector('#a02').value
+let currentA03 = document.querySelector('#a03').value
+let currentA05 = document.querySelector('#a04').value
+let currentA05 = document.querySelector('#a05').value
+let currentMidterm = document.querySelector('#midterm').value
+let currentCommits = document.querySelector('#commits').value
+let currentE02 = document.querySelector('#e02').value
+
 export default App;
