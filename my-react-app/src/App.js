@@ -78,6 +78,8 @@ function App() {
             <input type="text" id="a04" placeholder="a04" /><br/><br/>
             <input type="text" id="a05" placeholder="a05" /><br/><br/>
             <input type="text" id="a99" placeholder="a99" /><br/><br/>
+            <input type="text" id="midterm" placeholder="midterm" /><br/><br/>
+            <input type="text" id="final" placeholder="final" /><br/><br/>
             <button onClick={Add}>Add</button>
             <button onClick={Clear}>Clear</button>
             <label for="result"><b>Result:</b></label>
