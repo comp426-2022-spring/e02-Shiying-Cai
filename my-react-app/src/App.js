@@ -54,7 +54,9 @@ function App() {
     if(currentSum==='')
     return;
 // 2. This line is where you add the points all together. Add your other variable references here. Make sure that they match what is above and what is below in the HTML form
-    let sum = parseInt(currentA00) + parseInt(currentA01) + parseInt(currentA02) + parseInt(currentA03);
+    let sum = parseInt(currentA00) + parseInt(currentA01) + parseInt(currentA02) + parseInt(currentA03) + parseInt(currentA04) 
+              +parseInt(currentA05) + parseInt(currentA99) + parseInt(currentCommits)*500 + parseInt(currentFinal) + parseInt(currentMidterm)
+              +parseInt(currentE01) + parseInt(currentE02);
     setCurrentSum(sum);
   }
 
@@ -71,6 +73,7 @@ function App() {
       <form>
             <input type="text" id="a00" placeholder="a00" /><br/><br/>
             <input type="text" id="a01" placeholder="a01" /><br/><br/>
+            
             <button onClick={Add}>Add</button>
             <button onClick={Clear}>Clear</button>
             <label for="result"><b>Result:</b></label>
