@@ -37,7 +37,9 @@ function App() {
     // This makes it so the event does not clear the form, but instead updates it (or, really, just does whatever we tell it to do next).
     if(clear) setClear(false);
     // These variables correspond to the IDs of the input fields in your HTML form below
-// 1. Create other variables for assignments, exams, and engagement here
+
+
+    // 1. Create other variables for assignments, exams, and engagement here
     let currentA00 = document.querySelector('#a00').value
     let currentA01 = document.querySelector('#a01').value
     let currentA02 = document.querySelector('#a02').value
